@@ -10,7 +10,6 @@
     <ion-title>lancamento-add</ion-title>
     <ion-buttons end>
       <button ion-button icon-only (click)="toLancamentosAdd()">
-        <ion-icon name="ios-checkmark"></ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
@@ -74,11 +73,9 @@
   <ion-list>
     <ion-item>
       <ion-label>Tipo</ion-label>
-      <ion-select [(ngModel)]="tipo">
-        <ion-option value="credito">Credito</ion-option>
-        <ion-option value="Fevereiro">Fevereiro</ion-option>
-        <ion-option value="Março">Março</ion-option>
-        <ion-option value="Abril">Abril</ion-option>
+      <ion-select [(ngModel)]="lancamento.TIPO" name="TIPO" submitText="Ok" cancelText="Cancelar">>
+        <ion-option value="C">Crédito</ion-option>
+        <ion-option value="D">Débito</ion-option>
       </ion-select>
     </ion-item>
   </ion-list>
@@ -88,5 +85,8 @@
   <ion-label>Pago</ion-label>
   <ion-checkbox color="dark" checked="false"></ion-checkbox>
 </ion-item>
+<div padding>
+  <button ion-button block (click)="salvar()"> Salvar </button>
+</div>
 
 </ion-content>

@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import{ Lancamento } from '../../class/lancamento';
 import { ContasDaoProvider } from '../../providers/contas-dao/contas-dao';
 
+
 /**
  * Generated class for the LancamentoAddPage page.
  *
@@ -38,4 +39,14 @@ public contas: any[] = [];
     }).catch(e => console.error(e));
   }
 
+savlar(){
+  if (this.lancamento.DESCRICAO!= null){
+    //return this.dbProvider.getDB()
+    //               .then((db: SQLiteObject) => {
+    //                 return db.executeSql( "UPDATE CONTAS SET DESCRICAO = ? WHERE ID = ?", [conta.DESCRICAO, conta.ID])
+    //                    .catch(e => console.error(e));
+    //             })
+    //               .catch(e => console.error(e));
+  }
+}
 }
