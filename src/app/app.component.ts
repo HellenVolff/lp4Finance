@@ -28,7 +28,7 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
       //função para criar o banco de dados
-      //dbProvider.createDatabase();
+      dbProvider.createDatabase();
     });
 
 

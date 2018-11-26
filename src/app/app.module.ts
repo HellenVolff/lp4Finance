@@ -13,6 +13,7 @@ import { ContasAddPageModule } from '../pages/contas-add/contas-add.module'
 import { DatabaseProvider } from '../providers/database/database';
 import { ContasDaoProvider } from '../providers/contas-dao/contas-dao';
 import { LancamentoAddPageModule } from '../pages/lancamento-add/lancamento-add.module';
+import { DaoLancamentoProvider} from '../providers/dao-lancamento/dao-lancamento';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { LancamentoAddPageModule } from '../pages/lancamento-add/lancamento-add.
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     SQLite,
     DatabaseProvider,
-    ContasDaoProvider
+    ContasDaoProvider,
+    DaoLancamentoProvider
   ]
 })
 export class AppModule {}
