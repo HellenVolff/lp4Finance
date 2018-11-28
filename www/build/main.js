@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 112:
+/***/ 113:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -13,25 +13,25 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 112;
+webpackEmptyAsyncContext.id = 113;
 
 /***/ }),
 
-/***/ 153:
+/***/ 154:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/contas-add/contas-add.module": [
-		154
+		155
 	],
 	"../pages/contas/contas.module": [
-		159
+		160
 	],
 	"../pages/intro/intro.module": [
-		161
+		162
 	],
 	"../pages/lancamento-add/lancamento-add.module": [
-		163
+		165
 	]
 };
 function webpackAsyncContext(req) {
@@ -45,12 +45,12 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 153;
+webpackAsyncContext.id = 154;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 154:
+/***/ 155:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58,7 +58,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContasAddPageModule", function() { return ContasAddPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contas_add__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contas_add__ = __webpack_require__(156);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -88,14 +88,14 @@ var ContasAddPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 155:
+/***/ 156:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContasAddPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__class_conta__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__class_conta__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_contas_dao_contas_dao__ = __webpack_require__(46);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -187,7 +187,7 @@ var ContasAddPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 156:
+/***/ 157:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -202,7 +202,7 @@ var Conta = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 159:
+/***/ 160:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -210,7 +210,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContasPageModule", function() { return ContasPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contas__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contas__ = __webpack_require__(161);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -240,14 +240,14 @@ var ContasPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 160:
+/***/ 161:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContasPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contas_add_contas_add__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contas_add_contas_add__ = __webpack_require__(156);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_contas_dao_contas_dao__ = __webpack_require__(46);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -321,7 +321,7 @@ var ContasPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 161:
+/***/ 162:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -329,7 +329,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntroPageModule", function() { return IntroPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro__ = __webpack_require__(263);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -359,15 +359,16 @@ var IntroPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 162:
+/***/ 163:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LancamentoAddPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__class_lancamento__ = __webpack_require__(262);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_contas_dao_contas_dao__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__class_lancamento__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dao_lancamento_dao_lancamento__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_contas_dao_contas_dao__ = __webpack_require__(46);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -381,6 +382,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
  * Generated class for the LancamentoAddPage page.
  *
@@ -388,16 +390,38 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var LancamentoAddPage = /** @class */ (function () {
-    function LancamentoAddPage(navCtrl, 
-        // public navParams: NavParams,
-        daoContas) {
+    function LancamentoAddPage(navCtrl, navParams, daoLancamentos, daoContas, toast, alertCtrl) {
+        var _this = this;
         this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.daoLancamentos = daoLancamentos;
         this.daoContas = daoContas;
+        this.toast = toast;
+        this.alertCtrl = alertCtrl;
         this.contas = [];
+        this.referencia_mes = 0;
+        this.referencia_ano = 0;
+        this.listYears = [];
         this.lancamento = new __WEBPACK_IMPORTED_MODULE_2__class_lancamento__["a" /* Lancamento */]();
+        var data = new Date();
+        this.lancamento.REFERENCIA_MES = data.getMonth();
+        this.lancamento.REFERENCIA_ANO = data.getFullYear();
+        this.lancamento.TIPO = 'C';
+        if (this.navParams.data.id) {
+            this.daoLancamentos.get(this.navParams.data.id)
+                .then(function (result) {
+                _this.lancamento = result;
+            });
+        }
     }
     LancamentoAddPage.prototype.ionViewDidEnter = function () {
         this.getContas();
+        this.setListYears();
+    };
+    LancamentoAddPage.prototype.setListYears = function () {
+        for (var index = this.lancamento.REFERENCIA_ANO - 5; index < this.lancamento.REFERENCIA_ANO + 10; index++) {
+            this.listYears.push(index);
+        }
     };
     LancamentoAddPage.prototype.getContas = function () {
         var _this = this;
@@ -405,14 +429,77 @@ var LancamentoAddPage = /** @class */ (function () {
             _this.contas = data;
         }).catch(function (e) { return console.error(e); });
     };
-    LancamentoAddPage.prototype.savlar = function () {
-        if (this.lancamento.DESCRICAO != null) {
-            //return this.dbProvider.getDB()
-            //               .then((db: SQLiteObject) => {
-            //                 return db.executeSql( "UPDATE CONTAS SET DESCRICAO = ? WHERE ID = ?", [conta.DESCRICAO, conta.ID])
-            //                    .catch(e => console.error(e));
-            //             })
-            //               .catch(e => console.error(e));
+    LancamentoAddPage.prototype.salvar = function () {
+        var _this = this;
+        // Validar campos antes de salvar
+        // Não deixar o usuário enviar formulário sem os campos obrigatórios
+        if (this.lancamento.DESCRICAO == null || this.lancamento.DESCRICAO == undefined || !this.lancamento.DESCRICAO.trim()) {
+            this.alertCtrl.create({
+                title: 'Atenção!',
+                subTitle: 'Informe a Descrição do Lançamento!',
+                buttons: [{
+                        text: 'Ok'
+                    }]
+            }).present();
+            return false;
+        }
+        if (this.lancamento.VALOR == null || this.lancamento.VALOR == undefined) {
+            this.alertCtrl.create({
+                title: 'Atenção!',
+                subTitle: 'Informe o Valor do Lançamento!',
+                buttons: [{
+                        text: 'Ok'
+                    }]
+            }).present();
+            return false;
+        }
+        if (this.lancamento.CONTA == null || this.lancamento.CONTA == undefined) {
+            this.alertCtrl.create({
+                title: 'Atenção!',
+                subTitle: 'Informe a Conta do Lançamento!',
+                buttons: [{
+                        text: 'Ok'
+                    }]
+            }).present();
+            return false;
+        }
+        if (this.lancamento.ID) {
+            return this.daoLancamentos.update(this.lancamento)
+                .then(function () {
+                _this.toast.create({
+                    message: 'Lançamento salvo com sucesso!',
+                    duration: 1500,
+                    position: 'botton'
+                }).present();
+                _this.navCtrl.pop();
+            })
+                .catch(function (e) {
+                console.error(e);
+                _this.toast.create({
+                    message: e,
+                    duration: 1500,
+                    position: 'botton'
+                }).present();
+            });
+        }
+        else {
+            return this.daoLancamentos.insert(this.lancamento)
+                .then(function () {
+                _this.toast.create({
+                    message: 'Lançamento salvo com sucesso!',
+                    duration: 1500,
+                    position: 'botton'
+                }).present();
+                _this.navCtrl.pop();
+            })
+                .catch(function (e) {
+                console.error(e);
+                _this.toast.create({
+                    message: e,
+                    duration: 1500,
+                    position: 'botton'
+                }).present();
+            });
         }
     };
     LancamentoAddPage = __decorate([
@@ -420,7 +507,11 @@ var LancamentoAddPage = /** @class */ (function () {
             selector: 'page-lancamento-add',template:/*ion-inline-start:"/home/hellenbriany/Ionic/lp4Finance/src/pages/lancamento-add/lancamento-add.html"*/'<!--\n  Generated template for the LancamentoAddPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Lancamento-add</ion-title>\n  </ion-navbar>\n<ion-header>\n\n  <ion-content>\n    <ion-list>\n      <ion-item>\n        <ion-label floating>Descrição</ion-label>\n        <ion-input type="text" [(ngModel)]="lancamento.DESCRICAO" name="DESCRICAO"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label floating>Valor (R$)</ion-label>\n        <ion-input [(ngModel)]="lancamento.VALOR" name="VALOR" type="text"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label>Referência</ion-label>\n        <ion-select [(ngModel)]="lancamento.REFERENCIA_MES" name="REFERENCIA_MES" submitText="Ok" cancelText="Cancelar">\n          <ion-option value="0">Janeiro</ion-option>\n          <ion-option value="1">Fevereiro</ion-option>\n          <ion-option value="2">Março</ion-option>\n          <ion-option value="3">Abril</ion-option>\n          <ion-option value="4">Maio</ion-option>\n          <ion-option value="5">Junho</ion-option>\n          <ion-option value="6">Julho</ion-option>\n          <ion-option value="7">Agosto</ion-option>\n          <ion-option value="8">Setembro</ion-option>\n          <ion-option value="9">Outubro</ion-option>\n          <ion-option value="10">Novembro</ion-option>\n          <ion-option value="11">Dezembro</ion-option>\n        </ion-select>\n        <ion-select [(ngModel)]="lancamento.REFERENCIA_ANO" name="REFERENCIA_ANO">\n          <ion-option *ngFor="let ano of listYears" value="{{ano}}">{{ano}}</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-label>Conta</ion-label>\n        <ion-select [(ngModel)]="lancamento.CONTA" name="CONTA" submitText="Ok" cancelText="Cancelar">\n          <ion-option *ngFor="let conta of contas" value="{{conta.ID}}">{{conta.DESCRICAO}}</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-label>Tipo</ion-label>\n        <ion-select [(ngModel)]="lancamento.TIPO" name="TIPO" submitText="Ok" cancelText="Cancelar">\n          <ion-option value="C">Crédito</ion-option>\n          <ion-option value="D">Débito</ion-option>\n        </ion-select>\n      </ion-item>\n      <ion-item>\n        <ion-label>Pago</ion-label>\n        <ion-checkbox [(ngModel)]="lancamento.PAGO" name="PAGO" checked="true"></ion-checkbox>\n      </ion-item>\n    </ion-list>\n    <div padding>\n      <button ion-button color="primary" block (click)="salvar()">Salvar</button>\n    </div>\n  </ion-content>\n'/*ion-inline-end:"/home/hellenbriany/Ionic/lp4Finance/src/pages/lancamento-add/lancamento-add.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_contas_dao_contas_dao__["a" /* ContasDaoProvider */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_dao_lancamento_dao_lancamento__["a" /* DaoLancamentoProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_contas_dao_contas_dao__["a" /* ContasDaoProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], LancamentoAddPage);
     return LancamentoAddPage;
 }());
@@ -429,7 +520,22 @@ var LancamentoAddPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 163:
+/***/ 164:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Lancamento; });
+var Lancamento = /** @class */ (function () {
+    function Lancamento() {
+    }
+    return Lancamento;
+}());
+
+//# sourceMappingURL=lancamento.js.map
+
+/***/ }),
+
+/***/ 165:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -437,7 +543,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LancamentoAddPageModule", function() { return LancamentoAddPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lancamento_add__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lancamento_add__ = __webpack_require__(163);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -467,13 +573,13 @@ var LancamentoAddPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 205:
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(230);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -481,7 +587,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 228:
+/***/ 230:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -489,18 +595,18 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_sqlite__ = __webpack_require__(157);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_sqlite__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(281);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_intro_intro_module__ = __webpack_require__(161);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_contas_contas_module__ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contas_add_contas_add_module__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_database_database__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_intro_intro_module__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_contas_contas_module__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contas_add_contas_add_module__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_database_database__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_contas_dao_contas_dao__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_lancamento_add_lancamento_add_module__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_dao_lancamento_dao_lancamento__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_lancamento_add_lancamento_add_module__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_dao_lancamento_dao_lancamento__ = __webpack_require__(82);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -569,7 +675,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 261:
+/***/ 263:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -620,33 +726,18 @@ var IntroPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 262:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Lancamento; });
-var Lancamento = /** @class */ (function () {
-    function Lancamento() {
-    }
-    return Lancamento;
-}());
-
-//# sourceMappingURL=lancamento.js.map
-
-/***/ }),
-
-/***/ 280:
+/***/ 281:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_contas_contas__ = __webpack_require__(160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_database_database__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_contas_contas__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_database_database__ = __webpack_require__(47);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -683,164 +774,15 @@ var MyApp = /** @class */ (function () {
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/hellenbriany/Ionic/lp4Finance/src/app/app.html"*/'<ion-menu [content]="mnu_app">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>\n        Menu\n      </ion-title>\n    </ion-toolbar>\n  </ion-header>\n<ion-content>\n<ion-list>\n  <button ion-item (click)="openPage(home)" menuClose>Home</button>\n  <button ion-item (click)="openPage(contas)" menuClose>Contas</button>\n</ion-list>\n</ion-content>\n</ion-menu>\n\n<ion-nav [root]="rootPage" #mnu_app></ion-nav>\n'/*ion-inline-end:"/home/hellenbriany/Ionic/lp4Finance/src/app/app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_6__providers_database_database__["a" /* DatabaseProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__providers_database_database__["a" /* DatabaseProvider */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_database_database__["a" /* DatabaseProvider */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map
-
-/***/ }),
-
-/***/ 281:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DaoLancamentoProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__database_database__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__class_lancamento__ = __webpack_require__(262);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/*
-  Generated class for the DaoLancamentoProvider provider.
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
-var DaoLancamentoProvider = /** @class */ (function () {
-    function DaoLancamentoProvider(dbProvider) {
-        this.dbProvider = dbProvider;
-        console.log('Hello DaoLancamentoProvider Provider');
-    }
-    DaoLancamentoProvider.prototype.getList = function (tipo, mes, ano) {
-        return this.dbProvider.getDB()
-            .then(function (db) {
-            return db.executeSql("SELECT L.*, C.DESCRICAO AS CONTA_DESCRICAO FROM LANCAMENTOS L LEFT JOIN CONTAS C ON C.ID = L.CONTA_ID WHERE TIPO = ? AND L.REFERENCIA_MES = ? AND L.REFERENCIA_ANO = ? ORDER BY L.DESCRICAO", [tipo, mes, ano])
-                .then(function (data) {
-                if (data.rows.length > 0) {
-                    var lancamentos = [];
-                    for (var i = 0; i < data.rows.length; i++) {
-                        var lancamento = data.rows.item(i);
-                        lancamentos.push(lancamento);
-                    }
-                    return lancamentos;
-                }
-                return null;
-            })
-                .catch(function (e) { return console.error(e); });
-        })
-            .catch(function (e) { return console.error(); });
-    };
-    DaoLancamentoProvider.prototype.get = function (id) {
-        return this.dbProvider.getDB()
-            .then(function (db) {
-            return db.executeSql('SELECT * FROM LANCAMENTOS WHERE ID = ?', [id])
-                .then(function (data) {
-                console.log("Lançamento");
-                console.log(data);
-                if (data.rows.length > 0) {
-                    var item = data.rows.item(0);
-                    var lancamento = new __WEBPACK_IMPORTED_MODULE_2__class_lancamento__["a" /* Lancamento */]();
-                    lancamento.ID = item.ID;
-                    lancamento.DESCRICAO = item.DESCRICAO;
-                    lancamento.VALOR = item.VALOR;
-                    lancamento.REFERENCIA_MES = item.REFERENCIA_MES;
-                    lancamento.REFERENCIA_ANO = item.REFERENCIA_ANO;
-                    lancamento.CONTA = item.CONTA_ID;
-                    lancamento.TIPO = item.TIPO;
-                    lancamento.PAGO = item.PAGO;
-                    return lancamento;
-                }
-                return null;
-            })
-                .catch(function (e) { return console.error("Erro ao buscar lançamento", e); });
-        })
-            .catch(function (e) { return console.error("Erro ao abrir banco", e); });
-    };
-    DaoLancamentoProvider.prototype.insert = function (lancamento) {
-        return this.dbProvider.getDB()
-            .then(function (db) {
-            db.executeSql("INSERT INTO LANCAMENTOS (DESCRICAO, VALOR, REFERENCIA_MES, REFERENCIA_ANO, CONTA_ID, TIPO, PAGO) VALUES (?, ?, ?, ?, ?, ?, ?)", [lancamento.DESCRICAO, lancamento.VALOR, lancamento.REFERENCIA_MES, lancamento.REFERENCIA_ANO, lancamento.CONTA, lancamento.TIPO, lancamento.PAGO])
-                .catch(function (e) { return console.error(e); });
-        })
-            .catch(function (e) { return console.error(); });
-    };
-    DaoLancamentoProvider.prototype.update = function (lancamento) {
-        return this.dbProvider.getDB()
-            .then(function (db) {
-            return db.executeSql("UPDATE LANCAMENTOS SET DESCRICAO = ?, VALOR = ?, REFERENCIA_MES = ?, REFERENCIA_ANO = ?, CONTA_ID = ?, TIPO = ?, PAGO = ? WHERE ID = ?", [lancamento.DESCRICAO, lancamento.VALOR, lancamento.REFERENCIA_MES, lancamento.REFERENCIA_ANO, lancamento.CONTA, lancamento.TIPO, lancamento.PAGO, lancamento.ID])
-                .catch(function (e) { return console.error("Erro ao atualizar lançamento", e); });
-        })
-            .catch(function (e) { return console.error("Erro ao brir banco", e); });
-    };
-    DaoLancamentoProvider.prototype.delete = function (id) {
-        return this.dbProvider.getDB()
-            .then(function (db) {
-            return db.executeSql("DELETE FROM LANCAMENTOS WHERE ID = ?", [id]).catch(function (e) { return console.error(e); });
-        })
-            .catch(function (e) { return console.error(e); });
-    };
-    DaoLancamentoProvider.prototype.setPago = function (id) {
-        return this.dbProvider.getDB()
-            .then(function (db) {
-            return db.executeSql("UPDATE LANCAMENTOS SET PAGO = 'true' WHERE ID = ?", [id]).catch(function (e) { return console.error(e); });
-        })
-            .catch(function (e) { return console.error(e); });
-    };
-    DaoLancamentoProvider.prototype.getExtrato = function (mes, ano) {
-        return this.dbProvider.getDB()
-            .then(function (db) {
-            return db.executeSql("SELECT (SELECT SUM(CAST(REPLACE(L.VALOR, ',', '.') AS REAL)) AS CREDITO FROM LANCAMENTOS L WHERE L.REFERENCIA_MES = " + mes + " AND L.REFERENCIA_ANO = " + ano + " AND L.TIPO = 'C' AND PAGO = 'true') AS CREDITO, (SELECT SUM(CAST(REPLACE(L.VALOR, ',', '.') AS REAL)) AS DEBITO FROM LANCAMENTOS L WHERE L.REFERENCIA_MES = " + mes + " AND L.REFERENCIA_ANO = " + ano + " AND L.TIPO = 'D' AND PAGO = 'true') AS DEBITO", [])
-                .then(function (data) {
-                if (data.rows.length > 0) {
-                    var item = data.rows.item(0);
-                    var extrato = {
-                        CREDITO: item.CREDITO,
-                        DEBITO: item.DEBITO
-                    };
-                    return extrato;
-                }
-                return null;
-            }).catch(function (e) { return console.error(e); });
-        })
-            .catch(function (e) { return console.error(e); });
-    };
-    DaoLancamentoProvider.prototype.duplicar = function (mes_atual, ano_atual, mes, ano) {
-        return this.dbProvider.getDB()
-            .then(function (db) {
-            return db.executeSql("SELECT * FROM LANCAMENTOS L WHERE L.REFERENCIA_MES = ? AND L.REFERENCIA_ANO = ?", [mes_atual, ano_atual])
-                .then(function (data) {
-                if (data.rows.length > 0) {
-                    var lancamentos = [];
-                    for (var i = 0; i < data.rows.length; i++) {
-                        var lancamento = data.rows.item(i);
-                        db.executeSql("INSERT INTO LANCAMENTOS (DESCRICAO, VALOR, REFERENCIA_MES, REFERENCIA_ANO, CONTA_ID, TIPO, PAGO) VALUES (?, ?, ?, ?, ?, ?, ?)", [lancamento.DESCRICAO, lancamento.VALOR, mes, ano, lancamento.CONTA_ID, lancamento.TIPO, 'false']).catch(function (e) { return console.error(e); });
-                    }
-                }
-            }).catch(function (e) { return console.error(e); });
-        })
-            .catch(function (e) { return console.error(e); });
-    };
-    DaoLancamentoProvider = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__database_database__["a" /* DatabaseProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__database_database__["a" /* DatabaseProvider */]) === "function" && _a || Object])
-    ], DaoLancamentoProvider);
-    return DaoLancamentoProvider;
-    var _a;
-}());
-
-//# sourceMappingURL=dao-lancamento.js.map
 
 /***/ }),
 
@@ -850,8 +792,8 @@ var DaoLancamentoProvider = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContasDaoProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__database_database__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__class_conta__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__database_database__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__class_conta__ = __webpack_require__(157);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -948,13 +890,13 @@ var ContasDaoProvider = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 78:
+/***/ 47:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DatabaseProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__ = __webpack_require__(158);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1020,10 +962,9 @@ var DatabaseProvider = /** @class */ (function () {
     };
     DatabaseProvider = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__["a" /* SQLite */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__["a" /* SQLite */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__["a" /* SQLite */]])
     ], DatabaseProvider);
     return DatabaseProvider;
-    var _a;
 }());
 
 //# sourceMappingURL=database.js.map
@@ -1037,8 +978,8 @@ var DatabaseProvider = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lancamento_add_lancamento_add__ = __webpack_require__(162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dao_lancamento_dao_lancamento__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lancamento_add_lancamento_add__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_dao_lancamento_dao_lancamento__ = __webpack_require__(82);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1261,15 +1202,167 @@ var HomePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"/home/hellenbriany/Ionic/lp4Finance/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Lançamentos\n    </ion-title>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addLancamento()">\n        <ion-icon name="add-circle"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div class="navigation" padding>\n    <ion-icon name="arrow-dropleft-circle" class="nav-left" (click)="setPreviousMonth()"></ion-icon>\n    <span class="text-center">{{mes}}/{{referencia_ano}}</span>\n    <ion-icon name="arrow-dropright-circle" class="nav-right" (click)="setNextMonth()"></ion-icon>\n  </div>\n  <ion-item-divider color="light">Extrato</ion-item-divider>\n  <ion-list no-lines>\n    <ion-item class="lancamento">\n      Créditos\n      <small class="valor cred" style="margin: 0;">R$ {{credito}}</small>\n    </ion-item>\n    <ion-item class="lancamento">\n      Débitos\n      <small class="valor deb" style="margin: 0;">R$ {{debito}}</small>\n    </ion-item>\n    <ion-item class="lancamento">\n      Saldo\n      <small class="valor cred saldo" style="margin: 0;">R$ {{saldo}}</small>\n    </ion-item>\n  </ion-list>\n\n  <ion-list>\n    <ion-item-divider color="light">Créditos</ion-item-divider>\n    <ion-item-sliding *ngFor="let lanc of listLancCred">\n      <ion-item class="lancamento" (click)="edit(lanc.ID)">\n        <ion-title>{{lanc.DESCRICAO}}</ion-title>\n        <div class="info">\n          <small>{{lanc.REFERENCIA_MES+1}}/{{lanc.REFERENCIA_ANO}}</small>\n          <br>\n          <small>{{lanc.CONTA_DESCRICAO}}</small>\n        </div>\n        <small class="pago" [hidden]="lanc.PAGO != \'true\'">Pago</small>\n        <small class="valor cred">R$ {{lanc.VALOR}}</small>\n      </ion-item>\n      <ion-item-options>\n        <button ion-button color="secondary" (click)="pago(lanc.ID)" [hidden]="lanc.PAGO == \'true\'">Pago</button>\n        <button ion-button color="danger" (click)="delete(lanc.ID)">Excluir</button>\n      </ion-item-options>\n    </ion-item-sliding>\n\n  </ion-list>\n  <ion-list>\n    <ion-item-divider color="light">Débitos</ion-item-divider>\n    <ion-item-sliding *ngFor="let lanc of listLancDeb">\n      <ion-item class="lancamento" (click)="edit(lanc.ID)">\n        <ion-title>{{lanc.DESCRICAO}}</ion-title>\n        <div class="info">\n          <small>{{lanc.REFERENCIA_MES+1}}/{{lanc.REFERENCIA_ANO}}</small>\n          <br>\n          <small>{{lanc.CONTA_DESCRICAO}}</small>\n        </div>\n        <small class="pago" [hidden]="lanc.PAGO != \'true\'">Pago</small>\n        <small class="valor deb">R$ {{lanc.VALOR}}</small>\n      </ion-item>\n      <ion-item-options>\n        <button ion-button color="secondary" (click)="pago(lanc.ID)" [hidden]="lanc.PAGO == \'true\'">Pago</button>\n        <button ion-button color="danger" (click)="delete(lanc.ID)">Excluir</button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n\n  <div padding>\n    <button ion-button color="primary" block (click)="duplicar()">Duplicar Mês ></button>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/home/hellenbriany/Ionic/lp4Finance/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__providers_dao_lancamento_dao_lancamento__["a" /* DaoLancamentoProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_dao_lancamento_dao_lancamento__["a" /* DaoLancamentoProvider */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_dao_lancamento_dao_lancamento__["a" /* DaoLancamentoProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ToastController */]])
     ], HomePage);
     return HomePage;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=home.js.map
 
+/***/ }),
+
+/***/ 82:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DaoLancamentoProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__database_database__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__class_lancamento__ = __webpack_require__(164);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/*
+  Generated class for the DaoLancamentoProvider provider.
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var DaoLancamentoProvider = /** @class */ (function () {
+    function DaoLancamentoProvider(dbProvider) {
+        this.dbProvider = dbProvider;
+        console.log('Hello DaoLancamentoProvider Provider');
+    }
+    DaoLancamentoProvider.prototype.getList = function (tipo, mes, ano) {
+        return this.dbProvider.getDB()
+            .then(function (db) {
+            return db.executeSql("SELECT L.*, C.DESCRICAO AS CONTA_DESCRICAO FROM LANCAMENTOS L LEFT JOIN CONTAS C ON C.ID = L.CONTA_ID WHERE TIPO = ? AND L.REFERENCIA_MES = ? AND L.REFERENCIA_ANO = ? ORDER BY L.DESCRICAO", [tipo, mes, ano])
+                .then(function (data) {
+                if (data.rows.length > 0) {
+                    var lancamentos = [];
+                    for (var i = 0; i < data.rows.length; i++) {
+                        var lancamento = data.rows.item(i);
+                        lancamentos.push(lancamento);
+                    }
+                    return lancamentos;
+                }
+                return null;
+            })
+                .catch(function (e) { return console.error(e); });
+        })
+            .catch(function (e) { return console.error(); });
+    };
+    DaoLancamentoProvider.prototype.get = function (id) {
+        return this.dbProvider.getDB()
+            .then(function (db) {
+            return db.executeSql('SELECT * FROM LANCAMENTOS WHERE ID = ?', [id])
+                .then(function (data) {
+                console.log("Lançamento");
+                console.log(data);
+                if (data.rows.length > 0) {
+                    var item = data.rows.item(0);
+                    var lancamento = new __WEBPACK_IMPORTED_MODULE_2__class_lancamento__["a" /* Lancamento */]();
+                    lancamento.ID = item.ID;
+                    lancamento.DESCRICAO = item.DESCRICAO;
+                    lancamento.VALOR = item.VALOR;
+                    lancamento.REFERENCIA_MES = item.REFERENCIA_MES;
+                    lancamento.REFERENCIA_ANO = item.REFERENCIA_ANO;
+                    lancamento.CONTA = item.CONTA_ID;
+                    lancamento.TIPO = item.TIPO;
+                    lancamento.PAGO = item.PAGO;
+                    return lancamento;
+                }
+                return null;
+            })
+                .catch(function (e) { return console.error("Erro ao buscar lançamento", e); });
+        })
+            .catch(function (e) { return console.error("Erro ao abrir banco", e); });
+    };
+    DaoLancamentoProvider.prototype.insert = function (lancamento) {
+        return this.dbProvider.getDB()
+            .then(function (db) {
+            db.executeSql("INSERT INTO LANCAMENTOS (DESCRICAO, VALOR, REFERENCIA_MES, REFERENCIA_ANO, CONTA_ID, TIPO, PAGO) VALUES (?, ?, ?, ?, ?, ?, ?)", [lancamento.DESCRICAO, lancamento.VALOR, lancamento.REFERENCIA_MES, lancamento.REFERENCIA_ANO, lancamento.CONTA, lancamento.TIPO, lancamento.PAGO])
+                .catch(function (e) { return console.error(e); });
+        })
+            .catch(function (e) { return console.error(); });
+    };
+    DaoLancamentoProvider.prototype.update = function (lancamento) {
+        return this.dbProvider.getDB()
+            .then(function (db) {
+            return db.executeSql("UPDATE LANCAMENTOS SET DESCRICAO = ?, VALOR = ?, REFERENCIA_MES = ?, REFERENCIA_ANO = ?, CONTA_ID = ?, TIPO = ?, PAGO = ? WHERE ID = ?", [lancamento.DESCRICAO, lancamento.VALOR, lancamento.REFERENCIA_MES, lancamento.REFERENCIA_ANO, lancamento.CONTA, lancamento.TIPO, lancamento.PAGO, lancamento.ID])
+                .catch(function (e) { return console.error("Erro ao atualizar lançamento", e); });
+        })
+            .catch(function (e) { return console.error("Erro ao brir banco", e); });
+    };
+    DaoLancamentoProvider.prototype.delete = function (id) {
+        return this.dbProvider.getDB()
+            .then(function (db) {
+            return db.executeSql("DELETE FROM LANCAMENTOS WHERE ID = ?", [id]).catch(function (e) { return console.error(e); });
+        })
+            .catch(function (e) { return console.error(e); });
+    };
+    DaoLancamentoProvider.prototype.setPago = function (id) {
+        return this.dbProvider.getDB()
+            .then(function (db) {
+            return db.executeSql("UPDATE LANCAMENTOS SET PAGO = 'true' WHERE ID = ?", [id]).catch(function (e) { return console.error(e); });
+        })
+            .catch(function (e) { return console.error(e); });
+    };
+    DaoLancamentoProvider.prototype.getExtrato = function (mes, ano) {
+        return this.dbProvider.getDB()
+            .then(function (db) {
+            return db.executeSql("SELECT (SELECT SUM(CAST(REPLACE(L.VALOR, ',', '.') AS REAL)) AS CREDITO FROM LANCAMENTOS L WHERE L.REFERENCIA_MES = " + mes + " AND L.REFERENCIA_ANO = " + ano + " AND L.TIPO = 'C' AND PAGO = 'true') AS CREDITO, (SELECT SUM(CAST(REPLACE(L.VALOR, ',', '.') AS REAL)) AS DEBITO FROM LANCAMENTOS L WHERE L.REFERENCIA_MES = " + mes + " AND L.REFERENCIA_ANO = " + ano + " AND L.TIPO = 'D' AND PAGO = 'true') AS DEBITO", [])
+                .then(function (data) {
+                if (data.rows.length > 0) {
+                    var item = data.rows.item(0);
+                    var extrato = {
+                        CREDITO: item.CREDITO,
+                        DEBITO: item.DEBITO
+                    };
+                    return extrato;
+                }
+                return null;
+            }).catch(function (e) { return console.error(e); });
+        })
+            .catch(function (e) { return console.error(e); });
+    };
+    DaoLancamentoProvider.prototype.duplicar = function (mes_atual, ano_atual, mes, ano) {
+        return this.dbProvider.getDB()
+            .then(function (db) {
+            return db.executeSql("SELECT * FROM LANCAMENTOS L WHERE L.REFERENCIA_MES = ? AND L.REFERENCIA_ANO = ?", [mes_atual, ano_atual])
+                .then(function (data) {
+                if (data.rows.length > 0) {
+                    var lancamentos = [];
+                    for (var i = 0; i < data.rows.length; i++) {
+                        var lancamento = data.rows.item(i);
+                        db.executeSql("INSERT INTO LANCAMENTOS (DESCRICAO, VALOR, REFERENCIA_MES, REFERENCIA_ANO, CONTA_ID, TIPO, PAGO) VALUES (?, ?, ?, ?, ?, ?, ?)", [lancamento.DESCRICAO, lancamento.VALOR, mes, ano, lancamento.CONTA_ID, lancamento.TIPO, 'false']).catch(function (e) { return console.error(e); });
+                    }
+                }
+            }).catch(function (e) { return console.error(e); });
+        })
+            .catch(function (e) { return console.error(e); });
+    };
+    DaoLancamentoProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__database_database__["a" /* DatabaseProvider */]])
+    ], DaoLancamentoProvider);
+    return DaoLancamentoProvider;
+}());
+
+//# sourceMappingURL=dao-lancamento.js.map
+
 /***/ })
 
-},[205]);
+},[207]);
 //# sourceMappingURL=main.js.map
